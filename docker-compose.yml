@@ -1,0 +1,7 @@
+@'
+services:
+  water-potability:
+    build: .
+    ports:
+      - "5000:5000"
+'@ | Set-Content docker-compose.yml
